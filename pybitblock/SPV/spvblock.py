@@ -1980,7 +1980,7 @@ def tippinmeGetInvoice():
         lnurl = lnreq[1]
         lnurlS = str(lnurl)
         lnurlR = lnurlS.split(':')
-        lnurlW = lnbc1R[1]
+        lnurlW = lnurlR[1]
         ln = str(lnurlW)
         ln1 = ln.strip('"')
         node_not = input("Do you want to pay this invoice with your node? Y/n: ")
